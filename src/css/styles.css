@@ -79,3 +79,32 @@
   font-weight: 500;
   letter-spacing: -1px;
 }
+
+.form {
+  max-width: 300px;
+
+  input[type='number'] {
+    display: block;
+    width: 100%;
+    padding: 7px;
+  }
+
+  fieldset {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  button {
+    width: 100%;
+    padding: 5px;
+    font-size: inherit;
+  }
+}
+
+.iziToast-wrapper .iziToast {
+  font-family: inherit;
+  letter-spacing: 1px;
+}
