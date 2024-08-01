@@ -22,6 +22,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.nav {
+  margin-bottom: 50px;
+}
+
 .nav-list {
   display: flex;
   gap: 8px;
@@ -39,4 +43,39 @@
   border-color: #4e75ff;
   background-color: #4e75ff;
   color: #fff;
+}
+
+#datetime-picker {
+  padding: 5px;
+}
+
+#datetime-picker[disabled] {
+  cursor: not-allowed;
+}
+
+#datetime-picker + button {
+  padding: 5px;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 35px;
+}
+
+.label {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1px;
 }
