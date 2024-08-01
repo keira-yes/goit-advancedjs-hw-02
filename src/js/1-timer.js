@@ -24,7 +24,7 @@ const options = {
         message: 'Please choose a date in the future',
         messageColor: '#FFDFDB',
         backgroundColor: '#FD4B3F',
-        iconUrl: '/img/close.svg',
+        iconUrl: '/close.svg',
         position: 'topRight',
         timeout: 5000,
         animateInside: false,
